@@ -1,12 +1,14 @@
 <div align="center">
   <picture>
-    <img src="https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2026/2026-02-27-01-08-52.png" alt="PerplexPin" width="100" />
+    <img src="https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2026/2026-02-27-01-08-52.png" alt="PerplexPin" height="100" />
   </picture>
-
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/headerDark.svg" />
-    <img src="assets/headerLight.svg" alt="PerplexPin" />
+    <img src="assets/headerLight.svg" alt="PerplexPin" height="100" />
   </picture>
+
+  <br/>
+  <br/>
 
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Web%20Store-4285F4?logo=googlechrome&logoColor=white)]()
