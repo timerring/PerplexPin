@@ -14,6 +14,7 @@ mkdirSync(dist, { recursive: true });
 
 // Copy static files
 cpSync(resolve(root, 'public/manifest.json'), resolve(dist, 'manifest.json'));
+cpSync(resolve(root, 'public/icons'), resolve(dist, 'icons'), { recursive: true });
 
 console.log('Building popup...');
 await build({
@@ -35,4 +36,4 @@ await build({
   logLevel: 'warn',
 });
 
-console.log('✅ Build complete → dist/');
+console.log('Build complete → dist/');
