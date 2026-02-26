@@ -1,4 +1,21 @@
-# PerplexPin
+<div align="center">
+  <picture>
+    <img src="https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2026/2026-02-27-01-08-52.png" alt="PerplexPin" height="100" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/headerDark.svg" />
+    <img src="assets/headerLight.svg" alt="PerplexPin" height="100" />
+  </picture>
+
+  <br/>
+  <br/>
+
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+  [![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Web%20Store-4285F4?logo=googlechrome&logoColor=white)]()
+  [![YouTube](https://img.shields.io/badge/Video-YouTube-FF0000?logo=youtube&logoColor=white)]()
+  [![Bilibili](https://img.shields.io/badge/Video-Bilibili-00A1D6?logo=bilibili&logoColor=white)]()
+
+</div>
 
 Pin your preferred AI model on [Perplexity.ai](https://www.perplexity.ai) in [Comet](https://www.perplexity.ai/comet) — never get reset again.
 
@@ -8,11 +25,12 @@ Perplexity.ai tends to reset your selected AI model (e.g., Claude, GPT, Grok) ba
 
 ### How It Works
 
-1. Click the extension icon → **Copy Script**
-2. Open Perplexity.ai → press **F12** → Console tab
-3. Paste & run — a model picker appears
-4. Select your model (with optional Thinking mode toggle)
-5. Done — the guard persists across page loads
+1. Install the PerplexPin extension.
+2. Click the extension icon → **Copy Script**
+3. Open Perplexity.ai → press **F12** → Console tab
+4. Paste & run — a model picker appears
+5. Select your model (with optional Thinking mode toggle)
+6. Done — the guard persists across page loads
 
 To **switch models** later, just paste the script again. The picker always appears.
 
