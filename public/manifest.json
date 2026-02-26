@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "PerplexPin",
+  "description": "Pin your preferred AI model on Perplexity.ai — never get reset again.",
+  "version": "1.2.0",
+  "action": {
+    "default_title": "PerplexPin",
+    "default_popup": "popup/index.html"
+  }
+}

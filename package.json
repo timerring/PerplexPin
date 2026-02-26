@@ -1,0 +1,15 @@
+{
+  "name": "perplexpin",
+  "description": "Pin your preferred AI model on Perplexity.ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}
